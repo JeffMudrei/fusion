@@ -37,7 +37,6 @@ class Servico(Base):
     def __str__(self):
         return self.servico
 
-
 class Cargo(Base):
     cargo = models.CharField('Cargo', max_length=100)
 

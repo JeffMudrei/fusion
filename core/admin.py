@@ -16,3 +16,4 @@ class ServicoAdmin(admin.ModelAdmin):
 @admin.register(Funcionario)
 class FuncionarioAdmin(admin.ModelAdmin):
     list_display = ('nome', 'cargo', 'ativo', 'modificado')
+
